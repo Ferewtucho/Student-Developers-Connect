@@ -7,4 +7,6 @@
 <li>Nebiyou Assefa</li>
 <li>Ferew Tucho</li>
 </ul>
-<p>Click here for Demo</p>
+
+<p><strong>Click here for Demo</strong></p>
+
