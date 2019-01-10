@@ -8,5 +8,4 @@
 <li>Ferew Tucho</li>
 </ul>
 
-<p><strong>Click here for Demo</strong></p>
-
+<h6>Click here for <strong>Demo</strong></h6>
