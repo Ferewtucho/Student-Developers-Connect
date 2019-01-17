@@ -7,7 +7,6 @@ import Spinner from "../common/Spinner";
 import { getPosts } from "../../actions/postActions";
 
 class Posts extends Component {
-  state = {};
   componentDidMount() {
     this.props.getPosts();
   }
@@ -19,7 +18,7 @@ class Posts extends Component {
     if (posts === null || loading) {
       postContent = <Spinner />;
     } else {
-      postContent = <PostFeed post={posts} />;
+      postContent = <PostFeed posts={posts} />;
     }
 
     return (
