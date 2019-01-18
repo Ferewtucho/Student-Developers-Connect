@@ -28,8 +28,6 @@ class AddExperience extends Component {
   onSubmit = e => {
     e.preventDefault();
 
-    // console.log("submit");
-
     const expData = {
       company: this.state.company,
       title: this.state.title,
@@ -78,7 +76,6 @@ class AddExperience extends Component {
                   onChange={this.onChange}
                   error={errors.company}
                 />
-
                 <TextFieldGroup
                   placeholder="* Job Title"
                   name="title"
@@ -86,7 +83,6 @@ class AddExperience extends Component {
                   onChange={this.onChange}
                   error={errors.title}
                 />
-
                 <TextFieldGroup
                   placeholder="Location"
                   name="location"
@@ -94,7 +90,6 @@ class AddExperience extends Component {
                   onChange={this.onChange}
                   error={errors.location}
                 />
-
                 <h6>From Date</h6>
                 <TextFieldGroup
                   name="from"
@@ -103,7 +98,6 @@ class AddExperience extends Component {
                   onChange={this.onChange}
                   error={errors.from}
                 />
-
                 <h6>To Date</h6>
                 <TextFieldGroup
                   name="to"
@@ -113,7 +107,6 @@ class AddExperience extends Component {
                   error={errors.to}
                   disabled={this.state.disabled ? "disabled" : ""}
                 />
-
                 <div className="form-check mb-4">
                   <input
                     type="checkbox"
@@ -124,12 +117,10 @@ class AddExperience extends Component {
                     onChange={this.onCheck}
                     id="current"
                   />
-
                   <label htmlFor="current" className="form-check-label">
                     Current Job
                   </label>
                 </div>
-
                 <TextAreaFieldGroup
                   placeholder="Job Description"
                   name="description"
@@ -138,7 +129,6 @@ class AddExperience extends Component {
                   error={errors.description}
                   info="Tell us about the the position"
                 />
-
                 <input
                   type="submit"
                   value="Submit"
@@ -168,6 +158,3 @@ export default connect(
   mapStateToProps,
   { addExperience }
 )(withRouter(AddExperience));
-
-
-
