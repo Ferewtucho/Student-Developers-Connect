@@ -1,6 +1,9 @@
 {
   "name": "student-developers-connect",
   "version": "1.0.0",
+  "engines": {
+    "node": "10.15.0"
+  },
   "description": "\"Social network for student developers\"",
   "main": "server.js",
   "scripts": {
