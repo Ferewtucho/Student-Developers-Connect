@@ -23,32 +23,27 @@ import AddEducation from "./components/add-credentials/AddEducation";
 import Profiles from "./components/profiles/Profiles";
 import Profile from "./components/profile/Profile";
 import Posts from "./components/posts/Posts";
+import Post from "./components/post/Post";
 import NotFound from "./components/not-found/NotFound";
 
 import "./App.css";
-import { decode } from "punycode";
 
 // Check for token
 if (localStorage.jwtToken) {
   // Set auth token header auth
   setAuthToken(localStorage.jwtToken);
-
-  // Decode token and get user info and exop
+  // Decode token and get user info and exp
   const decoded = jwt_decode(localStorage.jwtToken);
-
   // Set user and isAuthenticated
   store.dispatch(setCurrentUser(decoded));
 
   // Check for expired token
   const currentTime = Date.now() / 1000;
-
-  if (decode.exp < currentTime) {
-    // Logout the user
+  if (decoded.exp < currentTime) {
+    // Logout user
     store.dispatch(logoutUser());
-
     // Clear current Profile
     store.dispatch(clearCurrentProfile());
-
     // Redirect to login
     window.location.href = "/login";
   }
@@ -67,11 +62,9 @@ class App extends Component {
               <Route exact path="/login" component={Login} />
               <Route exact path="/profiles" component={Profiles} />
               <Route exact path="/profile/:handle" component={Profile} />
-
               <Switch>
                 <PrivateRoute exact path="/dashboard" component={Dashboard} />
               </Switch>
-
               <Switch>
                 <PrivateRoute
                   exact
@@ -79,7 +72,6 @@ class App extends Component {
                   component={CreateProfile}
                 />
               </Switch>
-
               <Switch>
                 <PrivateRoute
                   exact
@@ -87,7 +79,6 @@ class App extends Component {
                   component={EditProfile}
                 />
               </Switch>
-
               <Switch>
                 <PrivateRoute
                   exact
@@ -95,7 +86,6 @@ class App extends Component {
                   component={AddExperience}
                 />
               </Switch>
-
               <Switch>
                 <PrivateRoute
                   exact
@@ -103,11 +93,12 @@ class App extends Component {
                   component={AddEducation}
                 />
               </Switch>
-
               <Switch>
                 <PrivateRoute exact path="/feed" component={Posts} />
               </Switch>
-
+              <Switch>
+                <PrivateRoute exact path="/post/:id" component={Post} />
+              </Switch>
               <Route exact path="/not-found" component={NotFound} />
             </div>
             <Footer />
