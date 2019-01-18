@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
 import { connect } from "react-redux";
-// import classnames from "classnames";
 import { loginUser } from "../../actions/authActions";
 import TextFieldGroup from "../common/TextFieldGroup";
 
@@ -11,6 +10,22 @@ class Login extends Component {
     password: "",
     errors: {}
   };
+
+  componentDidMount() {
+    if (this.props.auth.isAuthenticated) {
+      this.props.history.push("/dashboard");
+    }
+  }
+
+  componentWillReceiveProps(nextProps) {
+    if (nextProps.auth.isAuthenticated) {
+      this.props.history.push("/dashboard");
+    }
+
+    if (nextProps.errors) {
+      this.setState({ errors: nextProps.errors });
+    }
+  }
 
   onSubmit = e => {
     e.preventDefault();
@@ -22,24 +37,6 @@ class Login extends Component {
 
     this.props.loginUser(userData);
   };
-
-  componentDidMount() {
-    if (this.props.auth.isAuthenticated) {
-      this.props.history.push("/dashboard");
-    }
-  }
-
-  componentWillReceiveProps(nextProps) {
-    if (nextProps.auth.isAuthenticated) {
-      this.props.history.push("./dashboard");
-    }
-
-    if (nextProps.errors) {
-      this.setState({
-        errors: nextProps.errors
-      });
-    }
-  }
 
   onChange = e => {
     this.setState({ [e.target.name]: e.target.value });
@@ -59,23 +56,22 @@ class Login extends Component {
               </p>
               <form onSubmit={this.onSubmit}>
                 <TextFieldGroup
-                  type="email"
                   placeholder="Email Address"
                   name="email"
+                  type="email"
                   value={this.state.email}
                   onChange={this.onChange}
                   error={errors.email}
                 />
 
                 <TextFieldGroup
-                  type="password"
                   placeholder="Password"
                   name="password"
+                  type="password"
                   value={this.state.password}
                   onChange={this.onChange}
                   error={errors.password}
                 />
-
                 <input type="submit" className="btn btn-info btn-block mt-4" />
               </form>
             </div>

@@ -1,10 +1,10 @@
-import React, { Component } from "react";
-import PropTypes from "prop-types";
-import { connect } from "react-redux";
-import PostForm from "./PostForm";
-import PostFeed from "./PostFeed";
-import Spinner from "../common/Spinner";
-import { getPosts } from "../../actions/postActions";
+import React, { Component } from 'react';
+import PropTypes from 'prop-types';
+import { connect } from 'react-redux';
+import PostForm from './PostForm';
+import PostFeed from './PostFeed';
+import Spinner from '../common/Spinner';
+import { getPosts } from '../../actions/postActions';
 
 class Posts extends Component {
   componentDidMount() {
@@ -45,7 +45,4 @@ const mapStateToProps = state => ({
   post: state.post
 });
 
-export default connect(
-  mapStateToProps,
-  { getPosts }
-)(Posts);
+export default connect(mapStateToProps, { getPosts })(Posts);
