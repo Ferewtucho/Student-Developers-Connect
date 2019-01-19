@@ -15,7 +15,7 @@
     "dev": "concurrently \"npm run server\" \"npm run client\"",
     "build": "cd client && npm run build",
     "heroku-postbuild": "npm run build"
-  }
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Ferewtucho/Student-Developers-Connect.git"
