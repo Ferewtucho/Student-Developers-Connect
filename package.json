@@ -2,6 +2,9 @@
   "name": "student-developers-connect",
   "version": "1.0.0",
   "description": "\"Social network for student developers\"",
+  "engines": {
+    "node": "8.12.0"
+  },
   "main": "server.js",
   "scripts": {
     "client-install": "npm install --prefix client",
