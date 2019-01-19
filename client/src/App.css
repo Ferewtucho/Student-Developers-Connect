@@ -1,10 +1,26 @@
+.bg-dark {
+  background-color: #2B93D9!important;
+}
+a {
+    color: #FFFFFF;
+}
+.btn-info {
+  color: #fff;
+  background-color: #2B93D9;
+  border-color: #2B93D9;
+}
+.lead {
+  font-size: 1.25rem;
+  font-weight: 500;
+  font-style: oblique;
+}
 img {
   width: 100%;
 }
 
 .landing {
   position: relative;
-  background: url("./img/showcase.jpg") no-repeat;
+  background: url('./img/showcase.jpg') no-repeat;
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -17,7 +33,7 @@ img {
 }
 
 .dark-overlay {
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color:rgb(55, 55, 55, 0.4);
   position: absolute;
   top: 0;
   left: 0;
@@ -36,4 +52,90 @@ img {
 
 .form-control::placeholder {
   color: #bbb !important;
+}
+/* Custom  css */
+p{
+  margin: 0 0 10px;
+}
+p.copyright {
+  text-align: auto;
+}
+h3 {
+  font-size: 25px;
+  text-align: center;
+}
+li {
+  margin: 0;
+  padding: 0
+}
+.we {
+  text-align: center;
+}
+.fh5co-footer-link {
+  text-align-last: center;
+}
+.no-bullets {
+  list-style-type: none;
+}
+.help {
+  margin-left: 50px;
+}
+.whowe{
+  margin-left: 10px;
+}
+.service{
+  margin-left: 20px
+}
+.mission{
+  margin-left: 50px;
+}
+
+/* mobile responsive */
+@media screen and (max-width: 320px) {
+.h3 {
+  font-size: 20px;
+  text-align: center;
+}
+.we {
+  font-size: 12px;
+  text-align: center;
+}
+p.copyright {
+  font-size: 15px;
+}
+}
+@media screen and (max-width: 768px) {
+  .mission {
+    margin-left: 8px;
+    text-align: center;
+}
+.we{
+  font-size: 13px;
+  text-align: center;
+}
+.whowe {
+  margin-left: 0px;
+  font-size: 15px;}
+  text-align: center;
+}
+h3 {
+  font-size: 15px;
+  text-align: center;
+}
+
+.no-bullets{
+  font-size: 10px;
+  text-align: center;
+}
+
+@media screen and (max-width: 1024px) {
+.whowe {
+    margin-left: 0px;
+    font-size: 20px;
+    text-align: center;
+  }
+h3 {
+  font-size: 20px;
+  text-align: center;
+}
 }
