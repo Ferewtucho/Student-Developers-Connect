@@ -50,4 +50,4 @@ Integrate React with an Express backend in an elegant way and Use Redux for stat
 <li>Ferew Tucho</li>
 </ul>
 
-<strong>If you Want to See Demo</strong> <a href = "https://mysterious-savannah-24245.herokuapp.com/" target = "_blank">Click Me</a>
+<strong>If you Want to See Demo</strong> <a href = "https://mysterious-savannah-24245.herokuapp.com/" target="_blank">Click Me</a>
