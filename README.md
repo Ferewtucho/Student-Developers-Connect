@@ -13,7 +13,6 @@
 </ul>
 <hr>
 <h3>npm dependencies</h3>
-<br>
 <h4>server side</h4>
  <ul>
 <li>bcryptjs</li>
@@ -29,7 +28,7 @@
 <li>passport-jwt</li>
 </ul>
 <br>
-<p>clinet side</p>
+<h4>clinet side</h4>
 <ul>
 <li>axios</li>
 <li>redux-thunk</li>
