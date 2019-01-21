@@ -2,6 +2,9 @@
 <br>
 <p>Software Developer Connector  is full stack app.Its the easiest, trusted online community for developers to ask coding problems, learn, share their knowledge to others, and develop new skills.</p>
 <hr>
+<p>We Created an extensive backend API with Express, Use Stateless JWT authentication practices, 
+Integrate React with an Express backend in an elegant way and Use Redux for state management</p>
+<hr>
 <img src = "client/src/img/homepage.png" width = "650 px" height = "300 px">
 <h2>Technology used</h2>
 <ul>
@@ -40,12 +43,6 @@
   <ul>
   <li>nodemon</li>
 </ul>
-
- <hr>
-
-<p>We Created an extensive backend API with Express, Use Stateless JWT authentication practices, 
-Integrate React with an Express backend in an elegant way and Use Redux for state management</p>
-
 
 <hr>
 <h5>Authors :</h5>
