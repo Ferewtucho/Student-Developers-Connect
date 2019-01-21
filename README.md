@@ -11,6 +11,37 @@
 <li>Express</li>
 <li>MongoDB</li>
 </ul>
+<hr>
+<h3>npm dependencies</h3>
+<h4><client side></h4>
+<ul>
+<li>axios</li>
+<li>redux-thunk</li>
+<li>react-redux</li>
+<li>moment</li>
+<li>jwt-decode</li>
+<li>classnames</li>
+</ul>
+ <h4>server side</h4>
+ <ul>
+<li>bcryptjs</li>
+<li>body-parser</li>
+<li>concurrently</li>
+<li>express</li>
+<li>jwt-decode</li>
+<li>gravatar</li>
+ <li>jsonwebtoken</li>
+<li>mongoose</li>
+<li>passport</li>
+<li>express</li>
+<li>passport-jwt</li>
+</ul>
+  <p>devDependencies</p>
+  <ul>
+  <li>passport-jwt</li>
+</ul>
+  
+
 <p>We Created an extensive backend API with Express, Use Stateless JWT authentication practices, 
 Integrate React with an Express backend in an elegant way and Use Redux for state management</p>
 
