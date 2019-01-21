@@ -1,6 +1,6 @@
-<h1>Software Developers Connect</h1>
+<h1>Software Developers Connector</h1>
 <br>
-<p>Software Developer Connector  is full stack app its the largest, trusted online community for developers to Ask coding problems, learn, share their knowledge to others , and develop new skills.</p>
+<p>Software Developer Connector  is full stack app & its the easiest, trusted online community for developers to ask coding problems, learn, share their knowledge to others, and develop new skills.</p>
 <hr>
 <img src = "client/src/img/homepage.png" width = "650 px" height = "300 px">
 <h2>Technology used</h2>
