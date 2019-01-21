@@ -6,7 +6,13 @@ Integrate React with an Express backend in an elegant way and Use Redux for stat
 <hr>
 <img src = "client/src/img/homepage.png" width = "650 px" height = "300 px">
 <br>
-<img src="client/src/img/homepage.png" width="425"/> <img src="client/src/img/homepage.png" width="425"/> 
+
+<p float="left">
+  <img src="client/src/img/homepage.png" width="100"/>
+  <img src="client/src/img/homepage.png" width="100"/> 
+  
+</p>
+
 <h2>Technology used</h2>
 <ul>
 <li>React</li>
