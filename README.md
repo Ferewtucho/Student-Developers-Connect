@@ -1,6 +1,6 @@
-<h1>Student Developers Connect</h1>
+<h1>Software Developers Connect</h1>
 <br>
-<p>Social network app for student developers</p>
+<p>Software Developer Connector  is the largest, trusted online community for developers to Ask coding problems, learn, share their knowledge to others , and develop new skills.</p>
 <hr>
 <h5>Authors :</h5>
 <ul>
@@ -8,4 +8,4 @@
 <li>Ferew Tucho</li>
 </ul>
 
-<h6>Click here for <strong>Demo</strong></h6>
+<h6>https://mysterious-savannah-24245.herokuapp.com/<strong>Demo</strong></h6>
