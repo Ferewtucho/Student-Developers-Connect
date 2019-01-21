@@ -38,9 +38,10 @@
 </ul>
   <h4>devDependencies</h4>
   <ul>
-  <li>passport-jwt</li>
+  <li>nodemon</li>
 </ul>
-  
+
+ <hr>
 
 <p>We Created an extensive backend API with Express, Use Stateless JWT authentication practices, 
 Integrate React with an Express backend in an elegant way and Use Redux for state management</p>
