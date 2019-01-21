@@ -8,8 +8,8 @@ Integrate React with an Express, Github API backend in an elegant way and Use Re
 <br>
 
 <p float="left">
-  <img src="client/src/img/homepage.png" width="300"/>
-  <img src="client/src/img/homepage.png" width="300"/> 
+  <img src="client/src/img/developer.png" width="300"/>
+  <img src="client/src/img/signup.png" width="300"/> 
   
 </p>
 
