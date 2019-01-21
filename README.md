@@ -2,6 +2,7 @@
 <br>
 <p>Software Developer Connector  is full stack app its the largest, trusted online community for developers to Ask coding problems, learn, share their knowledge to others , and develop new skills.</p>
 <hr>
+<img src = "Student-Developers-Connect/client/src/img/showcase.png" width = "400 px" height = "300 px">
 <h2>Technology used</h2>
 <ul>
 <li>React</li>
