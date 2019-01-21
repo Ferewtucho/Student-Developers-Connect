@@ -17,7 +17,7 @@ class Landing extends Component {
           <div className="container">
             <div className="row">
               <div className="col-md-12 text-center">
-                <h1 className="display-3 mb-4">Student Developer Connector</h1>
+                <h1 className="display-3 mb-4">Software Developer Connector</h1>
                 <p className="lead">
                   {" "}
                   Create a developer profile/portfolio, share posts and get help
