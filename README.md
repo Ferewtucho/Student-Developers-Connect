@@ -27,7 +27,6 @@
 <li>express</li>
 <li>passport-jwt</li>
 </ul>
-<br>
 <h4>clinet side</h4>
 <ul>
 <li>axios</li>
