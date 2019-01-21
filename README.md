@@ -37,8 +37,7 @@
 <li>jwt-decode</li>
 <li>classnames</li>
 </ul>
-<br>
-  <p>devDependencies</p>
+  <h4>devDependencies</h4>
   <ul>
   <li>passport-jwt</li>
 </ul>
