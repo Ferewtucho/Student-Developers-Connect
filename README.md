@@ -13,16 +13,8 @@
 </ul>
 <hr>
 <h3>npm dependencies</h3>
-<h4><client side></h4>
-<ul>
-<li>axios</li>
-<li>redux-thunk</li>
-<li>react-redux</li>
-<li>moment</li>
-<li>jwt-decode</li>
-<li>classnames</li>
-</ul>
- <h4>server side</h4>
+<br>
+<h4>server side</h4>
  <ul>
 <li>bcryptjs</li>
 <li>body-parser</li>
@@ -36,6 +28,17 @@
 <li>express</li>
 <li>passport-jwt</li>
 </ul>
+<br>
+<p>clinet side</p>
+<ul>
+<li>axios</li>
+<li>redux-thunk</li>
+<li>react-redux</li>
+<li>moment</li>
+<li>jwt-decode</li>
+<li>classnames</li>
+</ul>
+<br>
   <p>devDependencies</p>
   <ul>
   <li>passport-jwt</li>
