@@ -8,8 +8,8 @@ Integrate React with an Express backend in an elegant way and Use Redux for stat
 <br>
 
 <p float="left">
-  <img src="client/src/img/homepage.png" width="100"/>
-  <img src="client/src/img/homepage.png" width="100"/> 
+  <img src="client/src/img/homepage.png" width="300"/>
+  <img src="client/src/img/homepage.png" width="300"/> 
   
 </p>
 
