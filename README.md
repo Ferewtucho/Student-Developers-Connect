@@ -4,7 +4,7 @@
 <p>We Created an extensive backend API with Express, Use Stateless JWT authentication practices, 
 Integrate React with an Express, Github API backend in an elegant way and Use Redux for state management.</p>
 <hr>
-<img src = "client/src/img/homepage.png" width = "650 px" height = "300 px">
+
 <br>
 <h2>Technology used</h2>
 <ul>
