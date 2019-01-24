@@ -6,13 +6,6 @@ Integrate React with an Express, Github API backend in an elegant way and Use Re
 <hr>
 <img src = "client/src/img/homepage.png" width = "650 px" height = "300 px">
 <br>
-
-<p float="left">
-  <img src="client/src/img/developer.png" width="300"/>
-  <img src="client/src/img/signup.png" width="300"/> 
-  
-</p>
-
 <h2>Technology used</h2>
 <ul>
 <li>React</li>
